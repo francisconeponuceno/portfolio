@@ -116,8 +116,8 @@ section.topo-do-site .flex {
     height: 400px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
-    align-items: center;
-    justify-content: center;
+    border: 5px;
+    border-color: #02d1f5;
 }
 
 @keyframes flutuar {
