@@ -209,9 +209,9 @@ section.sobre .img-sobre img {
     text-align: justify;
 }
 
-.sobre .txt-sobre .btn-social button {
-    width: 60px;
-    height: 60px;
+.btn-social button {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     border: none;
     background-color: #02d1f5;
@@ -315,9 +315,35 @@ form .btn-enviar input {
     transition: .2s;
 }
 
+/* ESTILO DO RODAPE */
 
+footer {
+    padding: 60px 4%;
+    box-shadow: 0 0 40px 10px #02d1f53b;
+}
 
+footer .flex {
+    justify-content: space-between;
+}
 
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #02d1f5;
+}
+
+footer .line-footer p i {
+    color: #02d1f5;
+    font-size: 22px;
+
+}
+
+footer .line-footer p a {
+    color: #fff;
+    padding-left: 10px;
+}
 
 
 
