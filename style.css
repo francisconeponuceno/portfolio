@@ -300,6 +300,11 @@ form {
     margin-top: 40px;
 }
 
+section.formulario p {
+    text-align: center;
+  
+}
+
 form input, form textarea {
     width: 100%;
     background-color: rgb(44, 44, 44);
@@ -369,12 +374,26 @@ footer .line-footer p a {
         flex-direction: column;
     }
 
-    .txt-topo-site > h1 {
-        font-size: 1rem;
-        
-    }
+    
 }
 
+
+@media (max-width: 395px) {
+    section.topo-do-site h1 {
+        font-size: 2rem;
+        
+    }
+
+    section.topo-do-site .img-topo-site img {
+        width: 300px;
+        height: 300px;
+    }
+
+    section.sobre .img-sobre img {
+        width: 300px;
+        height: 300px;
+    }
+}
 
 
 
