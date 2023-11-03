@@ -359,7 +359,21 @@ footer .line-footer p a {
     padding-left: 10px;
 }
 
+/* MIDIAS CRIERES */
+@media screen and (max-width: 1020px) {
+    .meu-desktop, .btn-contato {
+        display: none;
+    }
 
+    .flex {
+        flex-direction: column;
+    }
+
+    .txt-topo-site > h1 {
+        font-size: 1rem;
+        
+    }
+}
 
 
 
