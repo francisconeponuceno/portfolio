@@ -393,6 +393,15 @@ footer .line-footer p a {
         width: 300px;
         height: 300px;
     }
+
+    section.portfolio .img-port {
+        width: 300px;
+        margin: auto;
+    }
+
+    section.portfolio .titulo {
+        font-size: 2rem;
+    }
 }
 
 
