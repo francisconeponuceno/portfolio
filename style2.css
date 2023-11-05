@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sriracha&display=swap');
+:root {
+    --cor1: #02d1f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body {
+    background-color: rgb(4, 4, 44);
+    height: 100vh;
+    color: white;
+}
+
+
+header {
+    text-align: center;
+}
+
+/* STILO DA PRIMEIRA SECTION */
+section.modelo, section.modelo2 {
+    padding: 10px 4%;
+}
+
+section .principal {
+    display: flex;
+    width: 1350px;
+    height: 550px;
+    gap: 20px;
+    margin: auto;
+    
+}
+
+section .principal .atividade-principal {
+    
+    
+}
+
+section .principal .atividades .atividade-principal {
+    height: 275px;
+}
+
+.modelo .atividade-principal {
+    border: 2px solid var(--cor1);
+    border-radius: 10px;
+    
+}
+
+
+
+section .atividades2 {
+    display: flex;
+    gap: 20px;
+
+}
+
+section .atividades2 .atividade-principal {
+    border: 2px solid var(--cor1);
+    border-radius: 10px;
+    margin: auto;
+    width: 1000px;
+}
+
+.modelo i, .modelo2 i {
+    font-size: 2rem;
+    color: var(--cor1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
