@@ -22,9 +22,22 @@ header {
     text-align: center;
 }
 
+header h1 {
+    color: var(--cor1);
+}
+
+header button {
+    background-color: var(--cor1);
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
 /* STILO DA PRIMEIRA SECTION */
 section.modelo, section.modelo2 {
     padding: 10px 4%;
+    
 }
 
 section .principal {
