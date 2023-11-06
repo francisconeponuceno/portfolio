@@ -26,14 +26,7 @@ header h1 {
     color: var(--cor1);
 }
 
-header button {
-    background-color: var(--cor1);
-    border-radius: 10px;
-    width: 100px;
-    height: 30px;
-    margin-top: 10px;
-    cursor: pointer;
-}
+
 /* STILO DA PRIMEIRA SECTION */
 section.modelo, section.modelo2 {
     padding: 10px 4%;
@@ -95,7 +88,26 @@ section .atividades2 .atividade-principal {
     font-weight: bolder;
 }
 
+/* MIDA QUEIRE */ 
 
+@media (max-width:395px) {
+    
+    .modelo .principal {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .modelo2 .atividades2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .modelo2 .principal2 .atividades2 .atividade-principal {
+        width: 270px;
+    }
+}
 
 
 
