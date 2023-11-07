@@ -26,6 +26,13 @@ header h1 {
     color: var(--cor1);
 }
 
+header .como li {
+    display: inline-block;
+    padding: 0 150px;
+    color: var(--cor1);
+    font-weight: bold;
+    
+}
 
 /* STILO DA PRIMEIRA SECTION */
 section.modelo, section.modelo2 {
@@ -86,6 +93,10 @@ section .atividades2 .atividade-principal {
     font-size: 1rem;
     color: var(--cor1);
     font-weight: bolder;
+}
+
+.modelo ul, .modelo2 ul {
+    padding-left: 25px;
 }
 
 /* MIDA QUEIRE */ 
