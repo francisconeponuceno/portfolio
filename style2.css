@@ -120,7 +120,11 @@ section .atividades2 .atividade-principal {
     }
 }
 
-
+@media (max-width:380px) {
+    .modelo2 .principal2 .atividades2 .atividade-principal {
+        width: 240px;
+    }
+}
 
 
 
