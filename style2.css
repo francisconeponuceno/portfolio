@@ -49,15 +49,17 @@ section .principal {
 
 section .principal .atividade-principal {
     width: 270px;
+    background-color: rgb(46, 46, 46);
 }
 
 
 section .principal .atividades .atividade-principal {
     height: 275px;
+    background-color: rgb(46, 46, 46);
 }
 
 .modelo .atividade-principal {
-    border: 2px solid var(--cor1);
+    border: 2px solid #005252;
     border-radius: 10px;
     
 }
@@ -71,10 +73,11 @@ section .atividades2 {
 }
 
 section .atividades2 .atividade-principal {
-    border: 2px solid var(--cor1);
+    border: 2px solid #005252;
     border-radius: 10px;
     margin: auto;
     width: 1000px;
+    background-color: rgb(46, 46, 46);
 }
 
 .modelo i, .modelo2 i {
