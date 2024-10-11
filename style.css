@@ -35,7 +35,7 @@ header .interface .marca {
 
 .btn-contato button {
     padding: 10px 40px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 600;
     background-color: var(--cor1);
     border: 0;
@@ -43,6 +43,7 @@ header .interface .marca {
     cursor: pointer;
     transition: 0.5s;
     margin: 40px 0;
+    color: rgb(0, 0, 155);
 }
 
 button:hover, form .btn-enviar input:hover {
@@ -107,7 +108,7 @@ header nav ul li {
 /* ESTILO DO TOPO DO SITE */
 
 section.topo-do-site {
-    padding: 20px 4%;
+    padding: 10px 4%;
 }
 
 section.topo-do-site .flex {
@@ -117,7 +118,7 @@ section.topo-do-site .flex {
 
 .topo-do-site h1 {
     color: var(--cor1);
-    font-size: 42px;
+    font-size: 38px;
     line-height: 40ox;
 }
 
@@ -133,7 +134,7 @@ section.topo-do-site .flex {
 
 .topo-do-site .img-topo-site img {
     width: 400px;
-    height: 400px;
+    height: 250px;
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
     border: 2px solid var(--cor1);
