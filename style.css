@@ -20,14 +20,16 @@ body {
     height: 100vh;
     color: white;
 }
-.interface {
-    max-width: 1200px;
-    margin: auto;
-}
 
-header .interface .marca {
+
+
+.interface {
+    max-width: 100%;
+    margin: auto;
     
 }
+
+
 
 .flex {
     display: flex;
@@ -45,7 +47,7 @@ header .interface .marca {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s;
-    margin: 40px 0;
+    margin: 30px 0;
     color: rgb(0, 0, 155);
 }
 
@@ -69,7 +71,9 @@ h2.titulo span {
 
 /* ESTILO DO CABEÇALHO */
 header {
-    padding: 20px 4%;
+    padding: 5px 4%;
+    background-color: #18005c;
+    height: 100px;
 }
 
 header > .interface {
@@ -305,55 +309,6 @@ section.portfolio .flex {
     opacity: 1;
 }
 
-/* ESTILIZAÇÃO DO FORMULARIO */
-
-section.formulario {
-    padding: 40px 4%;
-}
-
-form {
-    max-width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 40px;
-}
-
-section.formulario p {
-    text-align: center;
-  
-}
-
-form input, form textarea {
-    width: 100%;
-    background-color: rgb(44, 44, 44);
-    border: 0;
-    outline: 0;
-    padding: 20px 15px;
-    border-radius: 15px;
-    color: #fff;
-    font-size: 18px;
-}
-
-form textarea {
-    resize: none;
-    min-height: 200px;
-}
-
-form .btn-enviar {
-    margin-top: 20px;
-    text-align: center;
-}
-
-form .btn-enviar input {
-    width: 120px;
-    background-color: var(--cor1);
-    color: black;
-    cursor: pointer;
-    transition: .2s;
-}
 
 /* ESTILO DO RODAPE */
 
