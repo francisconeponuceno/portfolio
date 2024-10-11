@@ -228,6 +228,38 @@ section.topo-do-site .flex {
     opacity: 1;
 }
 
+.principal{
+    width: 200px;
+    height: 200px;
+    background-color: #02d1f5;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.bi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.bi img {
+    width: 90%;
+    margin: 15px 0px;
+}
+
+.bi button {
+    width: 120px;
+    height: 25px;
+    background-color: #02d1f5;
+    border-radius: 10px;
+    
+}
+
 
 /* ESTILO DO RODAPE */
 
