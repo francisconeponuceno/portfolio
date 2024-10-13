@@ -173,6 +173,7 @@ section.topo-do-site .flex {
 }
 
 #carta  {
+    width: 600px;
     align-content: center;
     justify-content: center;
     align-items: center;
@@ -180,7 +181,7 @@ section.topo-do-site .flex {
     color: black;
     padding: 10px;
     border-radius: 10px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @keyframes flutuar {
