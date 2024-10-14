@@ -308,44 +308,87 @@ footer {
 }
 
 
-/* MIDIAS CRIERES */
-@media screen and (max-width: 1020px) {
-    .meu-desktop, .btn-contato {
-        display: none;
+/* MIDIAS CRIERES  DA PAGINA INICIAL*/
+@media  (max-width: 1107px) {
+    header a{
+        font-size: 0.7rem;
+       
+    }
+}
+
+@media  (max-width: 1057px) {
+
+    header ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+       
+       
     }
 
     .flex {
-        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
     }
-
-}
-
-
-@media (max-width: 395px) {
-    section.topo-do-site h1 {
-        font-size: 2rem;
+    
+    
+    #inicio {
+        gap: 200px;
+    }
+    
+    section.topo-do-site {
+        padding: 30px 4%;
+    
+    }
+    
+    section.topo-do-site .flex {
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .topo-do-site h1 {
+        color: var(--cor1);
+        font-size: 28px;
+        line-height: 40ox;
+    }
+    
+    .topo-do-site .img-topo-site{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .imgperfil{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        border: 2px solid var(--cor1);
+        border-radius: 50%;
         
     }
-
-    section.topo-do-site .img-topo-site img {
+    
+    .topo-do-site .img-topo-site img {
         width: 300px;
-        height: 300px;
+        height: 200px;
+        position: relative;
+        animation: flutuar 2s ease-in-out infinite alternate;
+        border: 2px solid var(--cor1);
+        border-radius: 20px;
     }
-
-    section.sobre .img-sobre img {
-        width: 300px;
-        height: 300px;
-    }
-
-    section.portfolio .img-port {
-        width: 300px;
-        margin: auto;
-    }
-
-    section.portfolio .titulo {
-        font-size: 2rem;
+    
+    @keyframes flutuar {
+        0%{
+            top: 0;
+        }
+        100%{
+            top: 30px;
+        }
     }
 }
+
+
 
 
 
