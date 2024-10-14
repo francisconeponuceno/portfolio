@@ -60,7 +60,7 @@ button:hover, form .btn-contato input:hover {
 }
 
 h2.titulo {
-    color: #fff;
+    color: black;
     font-size: 28px;
     text-align: center;
 }
@@ -122,7 +122,8 @@ header nav ul li {
 }
 
 section.topo-do-site {
-    padding: 0px 4%;
+    padding: 30px 4%;
+
 }
 
 section.topo-do-site .flex {
@@ -180,12 +181,15 @@ footer {
 
 /* ##################ESTILO DA PAGINA WEBSITE###################### */
 
-#website{
-    padding: 0px 20px;
+.website{
+    padding: 30px 20px;
+    background-color: #ececec;
+    
 }
+
 .img-port {
     width: 220px;
-    height: 300px;
+    height: 350px;
     background-size: cover;
     background-position: 100% 0%;
     transition: 10s;
@@ -193,6 +197,7 @@ footer {
     border-radius: 20px;
     position: relative;
     margin: 5px 5px;
+    box-shadow: 5px 0px 5px #2c2c2c;
 }
 
 .img-port:hover {
@@ -218,7 +223,7 @@ footer {
 }
 
 .overlay a {
-    color: #fff;
+    color: #02d1f5;
 }
 
 .overlay:hover {
@@ -233,7 +238,7 @@ footer {
     background-color: #ececec;
     color: black;
     height: 84.6%;
-    padding-top: 20px;
+    padding-top: 40px;
 }
 #carta  {
     width: 600px;
@@ -252,17 +257,23 @@ footer {
 
 /* ################## ESTILO PAGINA POWER BI ###################### */
 
+.powerBi {
+    background-color: #ececec;
+    padding-top: 30px;
+}
+
 #powerBi {
     margin-bottom: 20px;
+   
 }
 
 .principal{
     width: 250px;
-    height: 150px;
+    height: 180px;
     background-color: #02d1f5;
     border-radius: 10px;
     padding-top: 5px;
-    
+    box-shadow: 5px 0px 5px #2c2c2c;
 }
 
 
