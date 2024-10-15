@@ -611,11 +611,11 @@ footer {
     
     
     #inicio {
-        gap: 50px;
+        gap: 40px;
     }
     
     section.topo-do-site {
-        padding: 30px 4%;
+        padding: 20px 4%;
     
     }
     
@@ -665,6 +665,10 @@ footer {
     }
     
     /*CONFIGURAÇÕES DA PAGINA CARTA*/
+
+    .carta{
+        padding-top: 10px;
+    }
 
     #carta{
         width: 300px;
