@@ -489,6 +489,7 @@ footer {
     /* MIDIA CRIERES DA TELA DE INICIO*/
     .flex {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: space-around;
     }
@@ -537,6 +538,24 @@ footer {
         width: 300px;
         height: 200px;
         margin-bottom: 30px;
+    }
+
+    /*CONFIGURAÇÕES DA PAGINA CARTA*/
+    #carta{
+        font-size: 0.6rem;
+    }
+
+    /*CONFIGURAÇÕES DA PAGINA POWER BI*/
+    .principal {
+        width: 500px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    /*CONFIGURAÇÕES DA PAGINA WEBSITE*/
+
+    .img-port{
+        width: 500px;
     }
     
 }
@@ -661,9 +680,17 @@ footer {
         margin-bottom: 5px;
     }
     .principal {
+        width: 300px;
+        height: 200px;
         margin-bottom: 10px;
     }
     
+    /*CONFIGURAÇÕES DA PAGINA WEBSITE*/
+
+    .img-port {
+        width: 300px;
+    }
+
     /*CONFIGURAÇÕES DA PAGINA CARTA*/
 
     .carta{
