@@ -654,7 +654,28 @@ footer {
         height: 150px;
         margin-bottom: 30px;
     }
+
+    /*CONFIGURAÇÕES DA PAGINA POWER BI*/
+
+    #powerBi {
+        margin-bottom: 5px;
+    }
+    .principal {
+        margin-bottom: 10px;
+    }
     
+    /*CONFIGURAÇÕES DA PAGINA CARTA*/
+
+    #carta{
+        width: 300px;
+        font-size: 0.6rem;
+        
+    }
+
+    #carta h2{
+        font-size: 0.8rem;
+    }
+
 }
 
 
