@@ -424,6 +424,12 @@ footer {
         margin-bottom: 30px;
     }
     
+    /*CONFIGURAÇÕES DA PAGINA CARTA*/
+
+    #carta{
+        width: 400px;
+        font-size: 0.8rem;
+    }
 }
 
 /*##############################*/
@@ -542,7 +548,9 @@ footer {
 
     /*CONFIGURAÇÕES DA PAGINA CARTA*/
     #carta{
+        width: 600px;
         font-size: 0.6rem;
+
     }
 
     /*CONFIGURAÇÕES DA PAGINA POWER BI*/
