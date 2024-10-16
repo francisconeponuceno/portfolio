@@ -328,7 +328,7 @@ footer {
     
     .btn-contato button {
         padding: 5px 20px;
-        font-size: 15px;
+        font-size: 10px;
         font-weight: 500;
         margin: 15px 0;
     }
@@ -336,7 +336,7 @@ footer {
     
     header {
         padding: 5px 4%;
-        height: 100px;
+        height: 80px;
         
     }
     
@@ -359,10 +359,9 @@ footer {
         
     }
     
-    
     header nav ul li {
         display: inline-block;
-        padding: 0 20px;
+        padding: 0 8px;
         
     }
     
@@ -428,7 +427,8 @@ footer {
 
     #carta{
         width: 400px;
-        font-size: 0.8rem;
+        font-size: 0.6rem;
+        margin-top: 5px;
     }
 }
 
@@ -550,7 +550,7 @@ footer {
     #carta{
         width: 600px;
         font-size: 0.6rem;
-
+        
     }
 
     /*CONFIGURAÇÕES DA PAGINA POWER BI*/
