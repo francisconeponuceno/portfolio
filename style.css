@@ -425,11 +425,16 @@ footer {
     
     /*CONFIGURAÇÕES DA PAGINA CARTA*/
 
+    .carta{
+        padding-top: 2px;
+    }
+
     #carta{
         width: 400px;
         font-size: 0.6rem;
         margin-top: 5px;
     }
+
 }
 
 /*##############################*/
