@@ -651,7 +651,7 @@ footer {
     
     
     #inicio {
-        gap: 40px;
+        gap: 20px;
     }
     
     section.topo-do-site {
@@ -675,14 +675,15 @@ footer {
     }
     
     .topo-do-site .img-topo-site{
+        width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
     .imgperfil{
-        width: 150px;
-        height: 150px;
+        width: 160px;
+        height: 160px;
         position: relative;
         border: 2px solid var(--cor1);
         border-radius: 50%;
@@ -690,9 +691,13 @@ footer {
     }
     
     .topo-do-site .img-topo-site img {
-        width: 250px;
-        height: 150px;
+        width: 280px;
+        height: 180px;
         margin-bottom: 30px;
+    }
+
+    .btn-contato button {
+        height: 30px;
     }
 
     /*CONFIGURAÇÕES DA PAGINA POWER BI*/
