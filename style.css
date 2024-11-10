@@ -336,7 +336,7 @@ footer {
     
     header {
         padding: 5px 4%;
-        height: 80px;
+        height: 60px;
         
     }
     
@@ -350,7 +350,7 @@ footer {
         text-decoration: none;
         display: inline-block;
         transition: .2s;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     
     
