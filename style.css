@@ -143,8 +143,8 @@ section.topo-do-site .flex {
     align-items: center;
 }
 
-.imgperfil{
-    width: 300px;
+.imgperfil {
+    width: 250px;
     height: 300px;
     position: relative;
     border: 2px solid var(--cor1);
