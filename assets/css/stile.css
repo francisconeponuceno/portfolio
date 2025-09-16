@@ -73,7 +73,7 @@ section {
 
 /*TOPO PAGINAS SITE */
 .topo-pagina {
-    background: url(../img/topo-paginas-bg.png);
+    
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -231,6 +231,22 @@ section {
     min-height: 100vh;
     background-size: cover !important;
     background-position: center !important
+}
+
+#slider1 {
+    background: url(../img/slides/slider-1.png) no-repeat;
+}
+
+#slider2 {
+    background: url(../img/slides/slider-2.png) no-repeat;
+}
+
+#slider3 {
+    background: url(../img/slides/slider-3.png) no-repeat;
+}
+
+#slider4 {
+    background: url(../img/slides/slider-4.png) no-repeat;
 }
 
 .msflix-destaque .slide .content {
@@ -830,8 +846,32 @@ section {
         font-size: 50%;
     }
 
+    #slider1 {
+        background: url(../img/slides/slider_cel-1.png) no-repeat;
+    }
+
+    #slider1 h3 {
+        margin-top: 50px;
+    }
+
+    #slider2 {
+        background: url(../img/slides/slider_cel-2.png) no-repeat;
+    }
+
+    #slider3 {
+        background: url(../img/slides/slider_cel-3.png) no-repeat;
+    }
+
+    #slider3 h3 {
+        margin-top: 80px;
+    }
+
+    #slider4 {
+        background: url(../img/slides/slider_cel-4.png) no-repeat;
+    }
+
     .msflix-destaque .slide .content h3 {
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .topo-site .menu-site a {
